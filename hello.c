@@ -1,9 +1,19 @@
+
+/**
+ *  
+ * Blinking LED ATTiny85 "hello world"
+ *
+ * Following the tutorial at:
+ * http://www.instructables.com/id/Honey-I-Shrunk-the-Arduino-Moving-from-Arduino-t/?ALLSTEPS
+ *  
+ */
+
 #include <avr/io.h>
 // F_CPU frequency to be defined at command line
 #include <util/delay.h>
 
 // LED is on pin 3, PB4
-#define LED PB4
+#define LED      PB4
 #define DELAY_MS 500
 
 int main () {
@@ -35,3 +45,4 @@ int main () {
 
 	return 0;
 }
+
