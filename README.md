@@ -92,7 +92,7 @@ N.B. The ATTiny's pins 2 and 3 are unconnected.
 ### LED circuit
 
 Power the LED with a transistor and a series resistor, switching the transistor using a resistor 
-from the ATTiny's pin 3 to the transistor's base.
+from the ATTiny's pin 2 to the transistor's base.
 
 ## References
 

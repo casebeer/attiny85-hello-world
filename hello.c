@@ -12,8 +12,8 @@
 // F_CPU frequency to be defined at command line
 #include <util/delay.h>
 
-// LED is on pin 3, PB4
-#define LED      PB4
+// LED is on pin 2, PB3
+#define LED      PB3
 #define DELAY_MS 500
 
 int main () {
