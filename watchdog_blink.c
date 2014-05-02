@@ -112,7 +112,7 @@ int main () {
 uint8_t foo;
 
 // Interrupt service routine for the watchdog timeout interrupt
-ISR(WDT_vect) {};
+EMPTY_INTERRUPT(WDT_vect);
 
 //ISR(WDT_vect) {
 //	// clear watchdog enable and watchdog reset flag after wakeup
